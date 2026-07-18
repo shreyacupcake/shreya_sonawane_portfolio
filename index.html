@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya Sonawane - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/s.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/about.jpg" alt="Shreya Sonawane" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shreya Sonawane">Shreya Sonawane</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sv.shreya110@gmail.com" class="contact-link">sv.shreya110@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919390797465" class="contact-link">+91 93907 97465</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="globe-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Website</p>
+
+              <a href="https://shreyasonawane.netlify.app" target="_blank"
+                class="contact-link">shreyasonawane.netlify.app</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/shreya-sonawane" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shreya-sonawane/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Software Engineer at Hewlett Packard Enterprise (HPE) with a strong foundation in Computer Science
+            and Engineering from Vellore Institute of Technology. I specialize in building high-performance distributed
+            systems, database compiler components, low-latency telemetry systems, and cutting-edge GenAI/Agentic
+            automation tools.
+          </p>
+          <p>
+            My work focuses on optimizing storage and compiler engines, developing robust automated CI/CD
+            infrastructures, and implementing intelligent AI workflows (RAG, LLM chains) to improve software engineering
+            productivity and reliability.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="software engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Engineering</h4>
+
+                <p class="service-item-text">
+                  Developing high-performance distributed database compiler components, telemetry architectures, and
+                  automated testing frameworks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="AI development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & GenAI Solutions</h4>
+
+                <p class="service-item-text">
+                  Building stateful agentic workflows, conversational AI with memory graphs, LLM Chrome extensions, and
+                  explainable AI pipelines.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Client From USA" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Client From USA</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                  into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                  release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                  software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer I</h4>
+              <span>Hewlett Packard Enterprise | Bangalore, India</span>
+
+              <span>Sept 2025 — Present</span>
+
+              <p class="timeline-text">
+                • Delivered high-performance distributed database compiler components for Transparent Data Encryption
+                with HSM, optimizing storage and query compilation performance.
+                <br>• Resolved critical production defects for the HPE NonStop Database Compiler, ensuring query engine
+                correctness and fault-tolerant compiler behavior.
+                <br>• Led an LLM-powered POC, analyzing impact of CVEs in 1,000+ codebase files with 97% accuracy.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Intern</h4>
+              <span>Hewlett Packard Enterprise | Bangalore, India</span>
+
+              <span>Feb 2025 — Aug 2025</span>
+
+              <p class="timeline-text">
+                • Architected an automated pre-CIT infrastructure validation framework for database environments,
+                building independent testing and resource management tools.
+                <br>• Integrated validation frameworks into CI/CD pipelines to automate testing and deployments in
+                large-scale, distributed database environments.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CTY Intern</h4>
+              <span>Hewlett Packard Enterprise | Remote</span>
+
+              <span>Jan 2024 — Jun 2024</span>
+
+              <p class="timeline-text">
+                • Engineered a low-latency telemetry system utilizing IPC, processing 10,000+ network events efficiently
+                to support automated diagnostics.
+                <br>• Developed a logic-driven execution engine backed by a dynamic knowledge base, automating 15+
+                cybersecurity use cases and reducing manual security analysis effort.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PRISM Project Intern</h4>
+              <span>Samsung R&D Institute | Remote</span>
+
+              <span>Dec 2023 — Jun 2024</span>
+
+              <p class="timeline-text">
+                • Modelled a quality assurance framework for image caption generation models, achieving a 12%
+                improvement in BLEU score accuracy over baseline models on the Flickr8k Dataset through optimized
+                evaluation and model validation techniques.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vellore Institute of Technology</h4>
+              <span>Aug 2021 — Jun 2025</span>
+
+              <p class="timeline-text">
+                BTech. Computer Science and Engineering with Blockchain Technology
+                <br>
+                Location: Vellore, Tamil Nadu
+                <br>
+                Grade: CGPA 9.24/10
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FIITJEE Junior College</h4>
+
+              <span>2019 - 2021</span>
+
+              <p class="timeline-text">
+                Telangana State Board of Intermediate Education (Class XII) — PCM
+                <br>
+                Percentage: 97.2%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Akshara International School</h4>
+
+              <span>2017 - 2019</span>
+
+              <p class="timeline-text">
+                Central Board of Secondary Education (Class X)
+                <br>
+                Percentage: 96.8%
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Languages (C/C++, Python, Java, JS, Solidity, Shell)</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI-Native & GenAI (Agentic Workflows, RAG, MCP, CNN)</h5>
+                <data value="92">92%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Systems & Reliability (Telemetry, CI/CD, Docker, Linux, GDB)</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases & Tools (SQL/MX, Postgres, AWS, Git)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI & GenAI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Systems & Tools</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Blockchain & Web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI & GenAI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Systems & Tools</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Blockchain & Web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="ai & genai">
+              <a href="https://github.com/shreyacupcake/ai-code-explainer" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="CodeScribe" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CodeScribe</h3>
+
+                <p class="project-category">AI-based Code Explainer (Chrome Extension, LLMs, RAG)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai & genai">
+              <a href="https://github.com/shreya-sonawane" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="CT-Based TBI Localization" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TBI Localization</h3>
+
+                <p class="project-category">Deep Learning (ResNet-50) & Explainable AI (Grad-CAM)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai & genai">
+              <a href="https://github.com/shreya-sonawane" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="Goal-Aware Emotion-Tagged Graph Memory" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Conversational Graph Memory</h3>
+
+                <p class="project-category">Emotion-tagged graph memory for Conversational AI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="systems & tools">
+              <a href="https://github.com/shreyacupcake/trivio" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="Trivio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trivio</h3>
+
+                <p class="project-category">AI-powered YouTube learning & Chrome Extension</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blockchain & web">
+              <a href="https://github.com/orgs/YantraHack-TeamDassh/repositories" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="DASSH" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DASSH</h3>
+
+                <p class="project-category">Supply chain platform with ReactJS, Solidity, & Hardhat</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blockchain & web">
+              <a href="https://github.com/orgs/YantraHack-TeamDassh/repositories" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/xss_detection.png" alt="XSS Detection and Prevention" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Detection and Prevention of Cross Site Scripting Attacks(XSS)</h3>
+
+                <p class="project-category">Reverse Proxy, Gradient Boosting, Random Forest, SVM, AdaBoost</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="blockchain & web">
+              <a href="https://github.com/shreyacupcake" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/telecom_churn.png" alt="Telecom Churn Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Telecom Churn Prediction</h3>
+
+                <p class="project-category">Logistic Regression</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="blockchain & web">
+              <a href="https://github.com/shreyacupcake" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/agronomist.png" alt="Agronomist Smart Farming" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Agronomist</h3>
+
+                <p class="project-category">HTML, CSS, Tailwind</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="blockchain & web">
+              <a href="https://github.com/shreyacupcake" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cryptocheck.png" alt="CryptoCheck Dashboard" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CryptoCheck</h3>
+
+                <p class="project-category">ReactJS, APIs</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="achievements" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/project-6.png" alt="HPE Secure Coding Tournament" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Award</p>
+                    <span class="dot"></span>
+                    <time datetime="2026-05">May 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">HPE Secure Coding Tournament</h3>
+
+                  <p class="blog-text">
+                    Secured 1st place wide across HPE (beginner category) for demonstrating secure coding practices.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/project-7.png" alt="IET Scholarship Award" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Scholarship</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-08">August 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">IET Scholarship Award (Regional Level)</h3>
+
+                  <p class="blog-text">
+                    Selected among the top 100 engineering students nationally for academic and extracurricular
+                    excellence.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img class="contain-img" src="./assets/images/aws_solutions_architect_badge.png" alt="AWS Certified Solutions Architect & Cloud Practitioner Badges" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Certification</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-12">December 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AWS Certified Solutions Architect & Cloud Practitioner</h3>
+
+                  <p class="blog-text">
+                    Successfully completed AWS Cloud Practitioner and Solutions Architect certifications validating
+                    cloud expertise.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img class="contain-img" src="./assets/images/aws_cp_badge.png" alt="AWS Certified Cloud Practitioner Badge" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Certification</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-12">December 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AWS Certified Cloud Practitioner</h3>
+
+                  <p class="blog-text">
+                    Successfully completed AWS Cloud Practitioner validation cloud expertise.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/project-9.png" alt="Merit Scholarship" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Academic Excellence</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-04">2022 — 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Branch Topper & Merit Scholarship</h3>
+
+                  <p class="blog-text">
+                    Served as Program Representative and recognized as the Branch Topper across 5 academic semesters.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
